@@ -1,4 +1,4 @@
-spawn ssh root@coors1
+spawn ssh -o StrictHostKeyChecking=no root@coors1
 expect "password:"
 send "P1Tqgngtd\r"
 sleep 5
