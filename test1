@@ -1,4 +1,4 @@
-spawn ssh -o StrictHostKeyChecking=no root@coors1
+spawn ssh -o StrictHostKeyChecking=no root@coors1.labs.teradata.com
 expect "password:"
 send "P1Tqgngtd\r"
 sleep 5
